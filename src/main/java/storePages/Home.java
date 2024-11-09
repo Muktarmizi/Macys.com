@@ -18,7 +18,9 @@ public class Home {
 
 	@FindBy(xpath = "//div[@id='nav-header-root']")
 	WebElement logoElement;
-     @FindBy (id = "macys-login-userId")
+// will add more Element.
+	
+	@FindBy (id = "macys-login-userId")
      WebElement userIdElement;
 	
      public void clickLogo() {
